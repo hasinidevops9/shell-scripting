@@ -31,7 +31,7 @@ if [ "$str" = "hello"]; then
    echo "String matches"
 fi
 
-if [-z ""]; then
+if [ -z "" ]; then
    echo "String is empty"
 fi
 
@@ -46,7 +46,7 @@ if [ -f /etc/hosts ]; then
    echo "/etc/hosts is a file"
 fi
 
-if [ -d /tmp]; then
+if [ -d /tmp ]; then
    echo "/tmp is directory"
 fi
 
