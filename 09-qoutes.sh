@@ -23,3 +23,13 @@ echo \*\*\* Hello $User \*\*\* # Escaping special characters will allow variable
 
 echo -e '\e[31m Hello \e[0m' 
 echo -e "\e[31m *** Hello $User *** \e[0m" # Double quotes will allow variable substitution
+
+# To deal this better with function
+
+print_red(){
+    echo -e "\e[31m $* \e[0m"
+}
+
+print_red "*** Hello, How are you, $User ***" # Double quotes will allow variable substitution
+print_red "Hello World"
+print_red "Bye World"
