@@ -1,5 +1,5 @@
 echo x - $x
 
-read -y 'Enter a value for y: ' y
+read -z 'Enter a value for z: ' z
 
-echo y - $y
+echo z - $z
