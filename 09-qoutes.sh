@@ -17,4 +17,4 @@ echo "*** Hello $User ***" # Double quotes will allow variable substitution
 
 # We can acheive this without qoutes using esc character to esc speciality of special characters
 
-echo \*\*\* Hello \$User \*\*\* # Escaping special characters will allow variable substitution - Here \ is esc character
+echo \*\*\* Hello $User \*\*\* # Escaping special characters will allow variable substitution - Here \ is esc character
