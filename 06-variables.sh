@@ -20,6 +20,6 @@ echo DATE - $DATE
 
 ## Arithmetic substitution
 
-z=$((2+4)/(1*2))
+z=$(( (2+4)/(1*2) ))
 
 echo z - $z
