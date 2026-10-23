@@ -1,4 +1,4 @@
-## You can get from left hand side, Also before execution setting it up with export
+## You can get from left hand side, Also before execution setting it up with export ex: export x=10
 echo x - $x
 
 ## This is after execution
@@ -11,3 +11,13 @@ echo first argument = $1
 echo second argument = $2
 echo all arguments = $*
 echo total arguments = $#
+
+## Command substitution
+
+DATE=$(date)
+echo Date - $DATE
+
+## Arithmetic substitution
+
+z=$((2+4)/(1*2))
+echo z = $z
