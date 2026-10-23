@@ -1,1 +1,2 @@
 echo x - $x
+echo y - $y
