@@ -22,3 +22,4 @@ echo \*\*\* Hello $User \*\*\* # Escaping special characters will allow variable
 # Now if we recall the colour printing echo -e \\e[31m*** Hello $User ***\\e[0m donw easu with qoutes
 
 echo -e '\e[31m Hello \e[0m' 
+echo -e "\e[31m *** Hello $User *** \e[0m" # Double quotes will allow variable substitution
