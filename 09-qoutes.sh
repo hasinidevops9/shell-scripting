@@ -18,3 +18,7 @@ echo "*** Hello $User ***" # Double quotes will allow variable substitution
 # We can acheive this without qoutes using esc character to esc speciality of special characters
 
 echo \*\*\* Hello $User \*\*\* # Escaping special characters will allow variable substitution - Here \ is esc character
+
+# Now if we recall the colour printing echo -e \\e[31m*** Hello $User ***\\e[0m donw easu with qoutes
+
+echo -e '\e[31m Hello \e[0m' 
