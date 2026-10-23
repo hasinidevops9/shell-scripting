@@ -1,4 +1,4 @@
-# break - stops the loop
+# break - stops the loop - stops at 2 - 3 breaks the loop
 for i in {1..5}
 do
     if [ $i -eq 3 ]; then
@@ -10,7 +10,7 @@ done
 echo "Loop completed"
 
 
-# continue - skips the current iteration
+# continue - skips the current iteration - skips 3
 for i in {1..5}
 do
     if [ $i -eq 3 ]; then
