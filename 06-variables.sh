@@ -15,9 +15,11 @@ echo total arguments = $#
 ## Command substitution
 
 DATE=$(date)
+
 echo DATE - $DATE
 
 ## Arithmetic substitution
 
 z=$((2+4)/(1*2))
+
 echo z - $z
